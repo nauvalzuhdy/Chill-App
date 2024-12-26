@@ -1,0 +1,121 @@
+
+.login {
+    height: 600px;
+    margin: 0;
+    background-size: cover;
+    background-image: url(/background.jpg);
+    padding: 0;
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Arrange flex items vertically */
+    align-items: center; /* Center flex items horizontally */
+    justify-content: center;
+}
+
+.register_background {
+    background-image: url(/register_background.jpg);
+  }
+
+.login-logo {
+    width: 150px;
+}
+
+.container {
+    width: 100%;
+    height: 60vh auto;
+    padding: 40px;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.75);
+
+}
+
+.login-form {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #E7E3FC3B;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.daftar-lupa-sandi {
+    display: flex;
+    justify-content: space-between;
+    color: #C1C2C4;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.daftar-lupa-sandi a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.tombol-masuk {
+    background-color: #3D4142;
+    width: 100%;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: 1px solid #E7E3FC3B;
+}
+
+.tombol-masuk:hover {
+    background-color: #E7E3FC3B;
+}
+
+h6 {
+    text-align: center;
+    color: #C1C2C4;
+    font-weight: 300;
+}
+
+.btn-google {
+    width: 100%;
+    background: transparent;
+    color: white;
+    border-radius: 24px;
+    padding: 10px;
+    border: 1px solid #E7E3FC3B;
+    margin: 7px;
+}
+
+.btn-google:hover {
+    background-color: #3D4142;
+
+}
+
+.btn-google img {
+    display: inline;
+    align-items: center;
+    padding: 0 15px 0 0;
+}
+
+.loading-spinner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-spinner img {
+    width: 60px;
+}
+
+@media only screen and (max-width: 880px) {
+    .login {
+       height: 100vh; 
+       background-size: 100% 100%; 
+       padding: 20px;
+   }
+}

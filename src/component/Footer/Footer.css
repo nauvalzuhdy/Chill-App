@@ -1,0 +1,55 @@
+.footer {
+    position: relative;
+    margin: 0 auto;
+    padding: 60px;
+    border-top: 1px solid #ccc; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+
+.Genre{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media (max-width: 900px) {
+    .footer {
+        /* display: none; */
+        flex-direction: column;
+    }
+    
+    .footer-icons {
+        margin-bottom: 20px;
+    }
+    
+    .footer-links {
+        display: block;
+    }
+
+    .footer-links li {
+        display: none;
+    }
+
+    .footer-links ul h3 {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .Genre, .Bantuan {
+        display: block;
+    }
+}

@@ -1,0 +1,65 @@
+
+.titlecardsver {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.titlecardsver h2{
+    margin-bottom: 15px;
+}
+
+.card-list-ver {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+}
+
+
+.card-list-ver::-webkit-scrollbar {
+    display: none;
+}
+
+.card-list-ver img {
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+
+
+
+/* .card-ver:hover {
+    transform: scale(1.3 , 1.3);
+    padding-top: 30px;
+    -webkit-box-shadow: 0px 100px 0px 0px #000000; 
+    box-shadow: 0px 100px 0px 0px #000000;
+} */
+
+
+.btn-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-Info-Hover span {
+    font-size: 10px;
+    padding: 2px 7px;
+}
+
+.limit-age {
+    border: 1px slid transparent;
+    background: #CDF1FF4D;
+    border-radius: 30px;
+}
+
+.Genre p {
+    font-size: 11px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #C1C2C4;
+}
+
+
